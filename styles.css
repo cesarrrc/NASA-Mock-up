@@ -1,4 +1,99 @@
-body
-  {
+body  {
+  width: 850px;
+  height: 450px;
+  margin: 0 auto;
+  background-color: black;
+}
+
+
+main{
+  height: 450px;
+  background-image: url(astronaut.jpg);
+  background-color: black;
+  font-family: 'Space Mono', monospace;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  color: white;
+  justify-content: center;
+  letter-spacing: 70pt;
+  padding-left: 60pt;
+
+}
+
+section  {
+  font-family: 'Space Mono', monospace;
+  display: flex;
+  height: 324 px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+
+
+article  {
+  width: 270px;
+  height:374px;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+h2  {
+  text-decoration: underline;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+p  {
+  padding-top: 40pt;
+  text-align: center;
+}
+
+.message  {
+  padding-bottom: 40px;
+}
+
+form  {
+  text-align: center;;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+          /*early work*/
+
+/* body */
+  /* {
     font-family: 'Space Mono', monospace;
-  }
+    background-image: url(nasa.jpg);
+    background-size: cover;
+    color: red
+    width: 850px;
+    height: 450px;
+    
+    
+  } */
+  
+/* header{ */
+  
+  /* display: flex;
+  align-items: center;
+  font-size: 100px;
+  color:white;
+  justify-content: center; */
+
+} 
